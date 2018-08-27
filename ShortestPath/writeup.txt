@@ -1,0 +1,46 @@
+1. Topological Sort:
+
+	Vertex	1	2	3	4	5	6	7
+	A		0	0	0	0	0	0	0
+	B		1	0	0	0	0	0	0
+	C		1	1	1	1	1	1	0
+	D 		2	1	1	0	0	0	0
+	E		2	2	2	1	1	0	0
+	F		1	1	0	0	0	0	0
+	G		0	0	0	0	0	0	0
+	InQ		A,G	B	F	D 	-	E	C
+	DeQ		A	G	B	F	D 	E	C
+
+2. Minimum Spanning Tree
+	
+	a 
+		/* Commented // edges were not used 
+		pending edges
+			1:	(B,E) (G,D) (G,C) 
+			2:	(A.B) //(D,C)	(E,F)
+			3:	//(A,E) (E,G)	//(B,F)
+			4:	//(A,D) //(F,G)
+
+		order used:
+			1:(B,E) 2:(G,D) 3:(G,C) 4:(A,B) 5:(E,F) 6:(E:G)
+
+	b.
+
+		order	Vertex	k	c	p	
+		1		A		y	0	
+		2		B		y	2	A
+		6		C		y	1	G
+		7		D 		y	1	G
+		3		E		y	1	B
+		4		F		y	2	F
+		5		G		y	3	E
+
+3. Graph Pseudocode
+
+
+4.
+
+5.
+	Different types of cases within the airline data set
+
+	used priority queue

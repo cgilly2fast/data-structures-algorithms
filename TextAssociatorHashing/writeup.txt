@@ -1,0 +1,20 @@
+1.	i can stomach additional late days  :D
+
+2.	
+	1. I picked a number is that is relativey small interms of an entire language, but
+	would world well for a many "small" implementations, I toyed with prime number in 1
+	3 hundred range, I settled with 101 for a lighter starting data stucture
+
+	2. .5 load capicty it the best balance of mantaining speed and maximing the
+	amortitized cost
+
+	3. it should be nextPrime( size * 2 ) but i didnt have time to implenemt a next
+	prime function.
+
+3. I played with some idead of the wordinfo hash function and string hash function. i 
+thought the wi hashcode was good and i copied it for my hash code, i didnt out right
+use i because i had to recreat a wi object or have access to a wi object to call it. i
+want to call the hashcode on any word at anytime.
+
+4. The only other feasible option in my opinon is having it reference another hashset but impleneation wise it might easier than our current implenemetation because it will be easier to access the individaul elements. That likely is specific to out implenementations. Also it would garruntee constant runtime always.
+

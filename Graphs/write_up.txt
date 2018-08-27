@@ -1,0 +1,11 @@
+1.	adjacentVertices( Vertex v ) = O( |E| ) this runtime is linear time becasue it is 
+	degree dependent on the out degree of vertex v. 
+
+	egdeCost( Vertex a, Vertex b ) =  O( |E| ) this runtime is linear time becasue it is dependent on the out degree of vertex a. 
+
+2. 	MyGraph makes deep copies of every Vertex, Edge, and Set returned to client. I did
+	this to garantee no meddling form the client in MyGraph. 
+
+3. 	I created client code that test each method and for each exception it should or
+	shouldnt throw for various puesdo Vertex and Edge params, with some desgined to
+	force exceptions.
